@@ -2,11 +2,11 @@ import ex6
 reload(ex6)
 
 def is_numeric():
-##
-##    test_string = '123'
-##    expected = True
-##    actual = ex6.is_numeric (test_string)
-##    compare_expected_and_actual(test_string, expected, actual)
+
+    test_string = '123'
+    expected = True
+    actual = ex6.is_numeric (test_string)
+    compare_expected_and_actual(test_string, expected, actual)
 
     test_string = '-18788'
     expected = True
@@ -18,7 +18,7 @@ def is_numeric():
     actual = ex6.is_numeric (test_string)
     compare_expected_and_actual(test_string, expected, actual)
 
-    test_string = '.18788'
+    test_string = '-.18788'
     expected = False
     actual = ex6.is_numeric (test_string)
     compare_expected_and_actual(test_string, expected, actual)

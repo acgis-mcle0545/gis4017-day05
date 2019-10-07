@@ -4,12 +4,8 @@ def is_numeric (test_string):
 
     if test_string.isdigit():
         return True
-
-        ### This NEEDS WORK!!!!
     elif (test_string[1:].isdigit()) and (test_string[0] == '-'):
-        ### This NEEDS WORK!!!!
         return True
-
     else:
          return False
 
